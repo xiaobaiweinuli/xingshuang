@@ -41,9 +41,10 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      # 添加以下步骤以更新 Gemfile.lock 文件
+      # 添加平台的步骤
       - name: Add platform to Gemfile.lock
         run: bundle lock --add-platform x86_64-linux
+        working-directory: . # 确保在正确的目录中执行
 
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
