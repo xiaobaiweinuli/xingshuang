@@ -12,7 +12,7 @@ SITE_DIR="_site"
 
 _config="_config.yml"
 
-_baseurl=""
+_baseurl="https://xiaobaiweinuli.github.io/blog"
 
 help() {
   echo "Build and test the site content"
