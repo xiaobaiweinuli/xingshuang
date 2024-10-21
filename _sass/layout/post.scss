@@ -109,40 +109,6 @@ header {
 
         @extend %cursor-pointer;
       }
-
-      a :hover {
-        text-decoration: none;
-      }
-
-      .iconfont {
-        &.icon-twitter {
-          color: rgba(29, 161, 242, 1);
-        }
-  
-        &.icon-facebook {
-          color: rgb(66, 95, 156);
-        }
-  
-        &.icon-telegram {
-          color: rgb(39, 159, 217);
-        }
-  
-        &.icon-linkedin {
-          color: rgb(0, 119, 181);
-        }
-  
-        &.icon-weibo {
-          color: rgb(229, 20, 43);
-        }
-  
-        &.icon-13 {
-          color: rgb(1, 187, 10);
-        }
-  
-        &.icon-qzone {
-          color: rgb(255, 218, 5);
-        }
-      }
     } /* .share-icons */
   } /* .share-wrapper */
 }
@@ -266,8 +232,7 @@ header {
   border-left: 1px solid rgba(158, 158, 158, 0.17);
   position: -webkit-sticky;
   position: sticky;
-  top: 3rem;
-  margin-top: 3rem;
+  top: 4rem;
   transition: top 0.2s ease-in-out;
   -webkit-animation: fade-up 0.8s;
   animation: fade-up 0.8s;

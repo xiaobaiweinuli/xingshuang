@@ -4,24 +4,14 @@ import {
   imgPopup,
   initLocaleDatetime,
   initClipboard,
-  toc,
-  highlightLines,
-  runCpp,
-  runJavascript,
-  runPython,
-  runRust
+  toc
 } from './modules/plugins';
 
-loadImg();
-toc();
-imgPopup();
 initSidebar();
+initTopbar();
+loadImg();
+imgPopup();
 initLocaleDatetime();
 initClipboard();
-initTopbar();
+toc();
 basic();
-highlightLines();
-runCpp();
-runJavascript();
-runPython();
-runRust();

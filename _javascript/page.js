@@ -1,23 +1,9 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
-import {
-  loadImg,
-  imgPopup,
-  initClipboard,
-  highlightLines,
-  runCpp,
-  runJavascript,
-  runPython,
-  runRust
-} from './modules/plugins';
+import { loadImg, imgPopup, initClipboard } from './modules/plugins';
 
-loadImg();
-imgPopup();
+basic();
 initSidebar();
 initTopbar();
+loadImg();
+imgPopup();
 initClipboard();
-basic();
-highlightLines();
-runCpp();
-runJavascript();
-runPython();
-runRust();

@@ -14,8 +14,8 @@ const input = document.getElementById('search-input');
 const hints = document.getElementById('search-hints');
 
 // CSS class names
-const LOADED = 'd-block';
-const UNLOADED = 'd-none';
+const LOADED = 'loaded';
+const UNLOADED = 'unloaded';
 const FOCUS = 'input-focus';
 const FLEX = 'd-flex';
 

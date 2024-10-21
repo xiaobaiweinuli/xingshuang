@@ -6,14 +6,15 @@ layout:
   post: Post
   category: Category
   tag: Tag
+  treehole: Treehole
 
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  subdomain: Subdomain
   categories: Categories
   tags: Tags
+  treehole: Treehole
   archives: Archives
   about: About
 
@@ -26,30 +27,25 @@ search:
 panel:
   lastmod: Recently Updated
   trending_tags: Trending Tags
-  external_links: External Links
   toc: Contents
 
-copyright:
+#copyright:
   # Shown at the bottom of the post
-  license:
-    template: This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+#  license:
+#    template: This post is licensed under :LICENSE_NAME by the author.
+#    name: CC BY 4.0
+#    link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved.
-  verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
-    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+#  brief: No rights reserved.
+#  verbose: >-
+#    I don't think my blog posts are worth copying.
+#    Maybe...
 
-meta: Using the :THEME theme for :PLATFORM.
+meta: Build with :THEME for :PLATFORM.
 
 not_found:
-  title: "404: Page not found"
-  statment: You seem to have come to a wasteland where there is no knowledge
-  head_back: Head back Home
-  or: or
-  previous_page: previous page
+  statment: Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
 
 notification:
   update_found: A new version of content is available.
@@ -73,10 +69,6 @@ post:
     previous: Older
     copy_code:
       succeed: Copied!
-    run:
-      output: Code output
-      wait: Wait for running...
-      error_prompt: "Failed to run code, message:"
     share_link:
       title: Copy link
       succeed: Link copied successfully!
